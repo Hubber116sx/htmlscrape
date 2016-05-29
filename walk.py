@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from urlparse import urljoin
  
 class walk:
-	starturl= 'http://www.monetate.com/'
+	starturl= 'http://www.globalscape.com/'
 	visited = []
 
 	def start(self):
