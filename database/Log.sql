@@ -1,0 +1,9 @@
+use html_scraper;
+
+CREATE TABLE LOG (
+     ID BIGINT NOT NULL AUTO_INCREMENT,
+     FILENAME_SCRAPER TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+     EXECUTION TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+     TMSP TIMESTAMP,
+     primary key (id)
+);
